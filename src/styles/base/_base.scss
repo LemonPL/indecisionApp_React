@@ -1,0 +1,23 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: $dark-blue;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+// by default 1rem is 16px
+// after recalibration 62.5% it is 10px
+// h1 {
+//     font-size: 1rem;
+// }
